@@ -92,4 +92,3 @@ To test against a downloaded PDF:
 ```
 
 GitHub Actions runs once per day at 16:30 UTC, which is 9:30 AM Pacific during daylight saving time.
-
