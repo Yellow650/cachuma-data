@@ -1,0 +1,29 @@
+name: Update Historical Charts
+
+on:
+  schedule:
+    - cron: "15 17 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-historical:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Update historical chart PDFs
+        run: python scripts/update_historical.py
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update historical Cachuma charts"
+          file_pattern: "historical.json historical/*.pdf"
+

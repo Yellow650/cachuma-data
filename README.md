@@ -92,3 +92,13 @@ To test against a downloaded PDF:
 ```
 
 GitHub Actions runs once per day at 16:30 UTC, which is 9:30 AM Pacific during daylight saving time.
+
+## Historical Charts
+
+Historical chart PDFs are mirrored into `historical/` and described by `historical.json`.
+
+```sh
+.venv/bin/python scripts/update_historical.py
+```
+
+GitHub Actions updates these mirrored PDFs monthly. The charts are County-published PDFs, so the app displays them directly instead of recalculating long-term history.
