@@ -1,31 +1,31 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-04T19:43:40.959637+00:00",
-  "lastUpdated": "2026-10-02T08:00:00-07:00",
+  "generatedAt": "2026-10-05T22:48:15.254622+00:00",
+  "lastUpdated": "2026-10-05T08:00:00-07:00",
   "source": {
     "name": "Santa Barbara County Rainfall and Reservoir Summary",
     "url": "https://files.countyofsb.org/pwd/hydrology/Rainfall%20Reports/rainfallreport.pdf",
-    "reportDate": "2026-10-02",
+    "reportDate": "2026-10-05",
     "waterYear": 2027
   },
   "reservoir": {
     "name": "Cachuma Reservoir",
     "current": {
-      "capacityPercent": 85.2,
-      "storageAF": 164466,
-      "elevationFT": 743.37
+      "capacityPercent": 85.0,
+      "storageAF": 164018,
+      "elevationFT": 743.21
     },
     "changeSinceMonthStart": {
       "baselineDate": "2026-10-01",
-      "capacityPercent": -0.1,
-      "storageAF": -140,
-      "elevationFT": -0.05
+      "capacityPercent": -0.3,
+      "storageAF": -588,
+      "elevationFT": -0.21
     },
     "changeSinceWaterYearStart": {
       "baselineDate": "2026-09-01",
-      "capacityPercent": -2.8,
-      "storageAF": -5371,
-      "elevationFT": -1.9
+      "capacityPercent": -3.0,
+      "storageAF": -5819,
+      "elevationFT": -2.06
     }
   },
   "rainfall": {
